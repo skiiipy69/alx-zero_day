@@ -5,7 +5,7 @@ read filename
 echo 'please enter your input'
 read input
 
-echo ${input} > ${filename}
+echo -e ${input} > ${filename}
 
 
 echo 'please enter your commit'
