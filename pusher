@@ -1,11 +1,20 @@
 #!/bin/bash
+echo 'please entr filename'
+read filename
+
+echo 'please enter your input'
+read input
+
+echo ${input} > ${filename}
+
+
 echo 'please enter your commit'
 read message 
 
 git add .
 git commit -m '${message}'
 git push 
-chmod u+x pusher
+chmod u+x ${filename}
 
 
 
