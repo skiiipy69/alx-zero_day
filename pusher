@@ -1,0 +1,18 @@
+#!/bin/bash
+echo 'please enter your commit'
+read message 
+
+git add .
+git commit -m '${message}'
+git push 
+chmod u+x pusher
+
+
+
+
+
+
+
+
+
+
